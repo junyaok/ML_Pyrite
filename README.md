@@ -12,3 +12,4 @@ rims associated with fossil-bearing chert nodules. We compiled 1 data source and
 supplementary figures. Here is the list of data and code files.
 
 ## Data files
+Data
