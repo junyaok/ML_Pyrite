@@ -12,4 +12,29 @@ rims associated with fossil-bearing chert nodules. We compiled 1 data source and
 supplementary figures. Here is the list of data and code files.
 
 ## Data files
-Data
+In all data files, sedimentary, synsedimentary hydrothermal, and post-sedimentary hydrothermal pyrite are labeled as 0, 1, 2, respectively.
+  - [Training.csv](data/Training.csv) includes 3207 analyses for training (720 analyses) and initial testing (2487 analyses). 
+  - [Blind_Test.csv](data/Blind_Test.csv) includes 425 analyses from deposits/units not seen in the training and initial testing datasets were used for blind testing.
+  - [Xiao_Cui.csv](data/Xiao_Cui.csv) includes LA-ICP-MS trace element analyses of samples from Cui et al. and Xiao et al. projects.
+  - [TE_Data.csv](data/TE_Data.csv) includes all analyses (3632) used for supervised machine learning model training and testing (including blind testing)
+
+## Code files
+Update the path of data files in every code file before running
+  - [RF_XG.ipynb](code/RF_XG.ipynb): Distinguishing sedimentary and hydrothermal pyrite using Random Forests and XGBoost with LA-ICP-MS pyrite trace element database. 240 pyrite analyses from each label (sedimentary, synsedimentary hydrothermal, and post-sedimentary hydrothermal) were randomly selected from [Training.csv](data/Training.csv) to form a balanced training dataset.
+  - [Ternary.ipynb](code/Ternary.ipynb): Ploting the model predictions on Cui et al. and Xiao et al. samples as ternary plots. Must run RF_XG.ipynb first.
+  - [Cluster.ipynb](code/Cluster.ipynb): Conducting hierarchical cluster analysis on power transformend trace element database.
+  - [PCA.ipynb](code/PCA.ipynb): Conducting principla component analysis on power transformed trace element database.
+
+## Software Requirements
+The codes used in this paper were compiled on Python 3.10.4. All codes were written using Jupyter Notebook. To run the codes, install [Jupyter Noterbook/JupyterLab](https://jupyter.org/install) first.
+The versions of other packages are, specifically:
+```
+numpy==1.22.3
+pandas==1.4.3
+plotly==5.9.0
+matplotlib==3.5.1
+sklearn==1.1.1
+xgboost==1.6.1
+seaborn==0.11.2
+scipy==1.7.3
+```
