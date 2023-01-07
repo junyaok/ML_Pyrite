@@ -16,7 +16,7 @@ In all data files, sedimentary, synsedimentary hydrothermal, and post-sedimentar
   - [Training.csv](data/Training.csv) includes 3207 analyses for training (720 analyses) and initial testing (2487 analyses). 
   - [Blind_Test.csv](data/Blind_Test.csv) includes 425 analyses from deposits/units not seen in the training and initial testing datasets were used for blind testing.
   - [Xiao_Cui.csv](data/Xiao_Cui.csv) includes LA-ICP-MS trace element analyses of samples from Cui et al. and Xiao et al. projects.
-  - [TE_Data.csv](data/TE_Data.csv) includes all analyses (3632) used for supervised machine learning model training and testing (including blind testing)
+  - [TE_Data.csv](data/TE_Data.csv) includes all analyses (3632) used for supervised machine learning model training and testing (including blind testing). This data file was used to conduct HCA and PCA analyses.
 
 ## Code files
 Update the path of data files in every code file before running
