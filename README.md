@@ -1,8 +1,7 @@
 # ML_Pyrite
 
 ## Overview
-This repository contains data source and codes used in the paper entitled "Machine learning analysis of trace element data reveals 
-Neoproterozoic pyrite with both sedimentary and hydrothermal origins" by J. Kang et al. We trained two supervised machine learning algorithms
+This repository contains data source and codes used in the paper entitled "Machine learning analysis of trace element data distinguishes sedimentary and hydrothermal pyrite" by J. Kang et al. We trained two supervised machine learning algorithms
 on a large LA-ICP-MS pyrite trace element database to distinguish pyrite of different origins. The analysis validated several trace elements (Co, Ni, Cu, Zn, As, Mo, Ag, Sb, Te, Au, Tl, and Pb) as excellent predictors of pyrite origins.
 Further statistical analysis suggests four trace element clusters behaving differently 
 among sedimentary (syngenetic and early diagenetic), synsedimentary hydrothermal (syngenetic hydrothermal), and post-sedimentary hydrothermal (epigenetic hydrothermal) pyrite, which is probably driven by chemical and 
