@@ -1,14 +1,7 @@
 # ML_Pyrite
 
 ## Overview
-This repository contains data source and codes used in the paper entitled "Machine learning analysis of trace element data distinguishes sedimentary and hydrothermal pyrite" by J. Kang et al. We trained two supervised machine learning algorithms
-on a large LA-ICP-MS pyrite trace element database to distinguish pyrite of different origins. The analysis validated several trace elements (Co, Ni, Cu, Zn, As, Mo, Ag, Sb, Te, Au, Tl, and Pb) as excellent predictors of pyrite origins.
-Further statistical analysis suggests four trace element clusters behaving differently 
-among sedimentary (syngenetic and early diagenetic), synsedimentary hydrothermal (syngenetic hydrothermal), and post-sedimentary hydrothermal (epigenetic hydrothermal) pyrite, which is probably driven by chemical and 
-physical properties of source fluids, interactions between elements, competition among coprecipitating minerals, and pyrite growth rate. 
-Armed with this initial success, we then demonstrated the efficacy of this approach in identifying the origins of the isotopically superheavy pyrite in the Cryogenian Tiesi’ao and Datangpo formations and the pyritic rims associated with fossiliferous chert nodules in the Ediacaran Doushantuo Formation of South China.
-rims associated with fossiliferous chert nodules. We compiled 1 data source and 4 codes to generate the diagrams in Fig. 2-Fig. 4 and 
-supplementary figures. Here is the list of data and code files.
+This repository contains data source and codes used in the paper entitled "Machine learning analysis of trace element data distinguishes sedimentary and hydrothermal pyrite" by J. Kang et al. We trained two supervised machine learning algorithms on a large LA-ICP-MS pyrite trace element database to distinguish pyrite of different origins. The analysis validated several trace elements (Co, Ni, Cu, Zn, As, Mo, Ag, Sb, Te, Au, Tl, and Pb) as excellent predictors of pyrite origins. Further statistical analysis suggests four trace element clusters behaving differently among sedimentary (syngenetic and early diagenetic), synsedimentary hydrothermal (syngenetic hydrothermal), and post-sedimentary hydrothermal (epigenetic hydrothermal) pyrite, which is probably driven by chemical and physical properties of source fluids, interactions between elements, competition among coprecipitating minerals, and pyrite growth rate. Armed with this initial success, we then demonstrated the efficacy of this approach in identifying the origins of the isotopically superheavy pyrite in the Cryogenian Tiesi’ao and Datangpo formations and the pyritic rims associated with fossiliferous chert nodules in the Ediacaran Doushantuo Formation of South China. We compiled 1 data source and 4 codes to generate the diagrams in Fig. 2-Fig. 4 and supplementary figures. Here is the list of data and code files.
 
 ## Data files
 In all data files, sedimentary, synsedimentary hydrothermal, and post-sedimentary hydrothermal pyrite are labeled as 0, 1, 2, respectively.
